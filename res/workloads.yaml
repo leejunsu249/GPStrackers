@@ -47,7 +47,7 @@ spec:
   selector:
     matchLabels:
       app: position-tracker
-  replicas: 1
+  replicas: 2
   template: # template for the pods
     metadata:
       labels:
